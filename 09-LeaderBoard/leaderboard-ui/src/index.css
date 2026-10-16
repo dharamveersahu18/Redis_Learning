@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #f4f4f5;
+  background: #080a10;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: #a3e635;
+  color: #080a10;
+}
+
+.neon-text {
+  text-shadow: 0 0 22px rgb(163 230 53 / 35%);
+}
+
+.neon-card {
+  box-shadow: 0 0 35px rgb(163 230 53 / 5%);
+}
+
+.grid-bg {
+  background-image: linear-gradient(
+    rgb(255 255 255 / 2.5%) 1px,
+    transparent 1px
+  ),
+  linear-gradient(
+    90deg,
+    rgb(255 255 255 / 2.5%) 1px,
+    transparent 1px
+  );
+  background-size: 34px 34px;
+}
